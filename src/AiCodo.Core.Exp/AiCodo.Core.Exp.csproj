@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFrameworks>netstandard2.0;netstandard2.1;</TargetFrameworks>
+	  <BaseOutputPath>..\..\..\lib</BaseOutputPath>
+	  <BaseIntermediateOutputPath>..\..\..\obj</BaseIntermediateOutputPath>
+	  <Authors>singba</Authors>
+	  <Product>aicodo.core</Product>
+	  <Company>aicodo.com</Company>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <Copyright>aicodo.com</Copyright>
+	  <RepositoryUrl>https://github.com/singbaX/aicodo.core</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DynamicExpresso.Core" Version="2.16.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AiCodo.Core\AiCodo.Core.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;netstandard2.1;</TargetFrameworks>
+		<Nullable>disable</Nullable>
+		<RootNamespace>AiCodo</RootNamespace>
+		<BaseOutputPath>..\..\..\lib</BaseOutputPath>
+		<BaseIntermediateOutputPath>..\..\..\obj</BaseIntermediateOutputPath>
+		<Authors>singba</Authors>
+		<Product>aicodo.core</Product>
+		<Company>aicodo.com</Company>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Copyright>aicodo.com</Copyright>
+		<RepositoryUrl>https://github.com/singbaX/aicodo.core</RepositoryUrl>
+	</PropertyGroup>
+
+</Project>

@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFrameworks>netstandard2.0;netstandard2.1;</TargetFrameworks>
+      <RootNamespace>AiCodo</RootNamespace>
+	  <BaseOutputPath>..\..\..\lib</BaseOutputPath>
+	  <BaseIntermediateOutputPath>..\..\..\obj</BaseIntermediateOutputPath>
+	  <Authors>singba</Authors>
+	  <Product>aicodo.core</Product>
+	  <Company>aicodo.com</Company>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <Copyright>aicodo.com</Copyright>
+	  <RepositoryUrl>https://github.com/singbaX/aicodo.core</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+    <DefineConstants>$(DefineConstants);Newton</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.1|AnyCPU'">
+    <DefineConstants>$(DefineConstants);Newton</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
+    <DefineConstants>$(DefineConstants);Newton</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.1|AnyCPU'">
+    <DefineConstants>$(DefineConstants);Newton</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AiCodo.Core\AiCodo.Core.csproj" />
+  </ItemGroup>
+
+  <Import Project="..\AiCodo.Core.Json.Share\AiCodo.Core.Json.Share.projitems" Label="Shared" />
+
+</Project>

@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AiCodo.Core", "AiCodo.Core\AiCodo.Core.csproj", "{E995E38B-B1AD-4708-8459-EABD09A08F6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AiCodo.Core.Exp", "AiCodo.Core.Exp\AiCodo.Core.Exp.csproj", "{0F4EADF0-E171-4676-8F0C-9977E7F85563}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AiCodo.Core.Json.Share", "AiCodo.Core.Json.Share\AiCodo.Core.Json.Share.shproj", "{D7740755-AFC2-49F3-982C-C7ED0F6B0160}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AiCodo.Core.Json", "AiCodo.Core.Json\AiCodo.Core.Json.csproj", "{AB14A464-00C9-4B9A-B78C-529054E46A7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AiCodo.Core.Data", "AiCodo.Core.Data\AiCodo.Core.Data.csproj", "{B982B372-F941-4681-86BF-CEAADF2B229D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AiCodo.Core.Data.PostgreSQL", "AiCodo.Core.Data.PostgreSQL\AiCodo.Core.Data.PostgreSQL.csproj", "{919EF2CA-6B1B-4794-B9EC-C3219A6A37D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AiCodo.Core.Data.SQLite", "AiCodo.Core.Data.SQLite\AiCodo.Core.Data.SQLite.csproj", "{3D7CA7F3-8CBC-4691-81B3-39150855A8C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AiCodo.Core.Flow", "AiCodo.Core.Flow\AiCodo.Core.Flow.csproj", "{E56E8887-12D3-404C-88D5-4672096F5E88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E995E38B-B1AD-4708-8459-EABD09A08F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E995E38B-B1AD-4708-8459-EABD09A08F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E995E38B-B1AD-4708-8459-EABD09A08F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E995E38B-B1AD-4708-8459-EABD09A08F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F4EADF0-E171-4676-8F0C-9977E7F85563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4EADF0-E171-4676-8F0C-9977E7F85563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4EADF0-E171-4676-8F0C-9977E7F85563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4EADF0-E171-4676-8F0C-9977E7F85563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB14A464-00C9-4B9A-B78C-529054E46A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB14A464-00C9-4B9A-B78C-529054E46A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB14A464-00C9-4B9A-B78C-529054E46A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB14A464-00C9-4B9A-B78C-529054E46A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B982B372-F941-4681-86BF-CEAADF2B229D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B982B372-F941-4681-86BF-CEAADF2B229D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B982B372-F941-4681-86BF-CEAADF2B229D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B982B372-F941-4681-86BF-CEAADF2B229D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{919EF2CA-6B1B-4794-B9EC-C3219A6A37D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{919EF2CA-6B1B-4794-B9EC-C3219A6A37D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{919EF2CA-6B1B-4794-B9EC-C3219A6A37D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{919EF2CA-6B1B-4794-B9EC-C3219A6A37D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D7CA7F3-8CBC-4691-81B3-39150855A8C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D7CA7F3-8CBC-4691-81B3-39150855A8C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D7CA7F3-8CBC-4691-81B3-39150855A8C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D7CA7F3-8CBC-4691-81B3-39150855A8C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E56E8887-12D3-404C-88D5-4672096F5E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E56E8887-12D3-404C-88D5-4672096F5E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E56E8887-12D3-404C-88D5-4672096F5E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E56E8887-12D3-404C-88D5-4672096F5E88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {555C39C9-7A42-447E-87CE-8F8893B816A4}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		AiCodo.Core.Json.Share\AiCodo.Core.Json.Share.projitems*{ab14a464-00c9-4b9a-b78c-529054e46a7a}*SharedItemsImports = 5
+		AiCodo.Core.Json.Share\AiCodo.Core.Json.Share.projitems*{d7740755-afc2-49f3-982c-c7ed0f6b0160}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

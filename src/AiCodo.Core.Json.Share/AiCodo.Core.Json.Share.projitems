@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>d7740755-afc2-49f3-982c-c7ed0f6b0160</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>AiCodo</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AppSetting.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DynamicExpandoJsonConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConfigFile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DBEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DynamicExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\DynamicEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\DynamicExpando.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Entity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\RowEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\StaticExpando.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EntityExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JsonHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ServiceResult.cs" />
+  </ItemGroup>
+</Project>
