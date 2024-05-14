@@ -19,6 +19,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AiCodo.Core.Data.SQLite", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AiCodo.Core.Flow", "AiCodo.Core.Flow\AiCodo.Core.Flow.csproj", "{E56E8887-12D3-404C-88D5-4672096F5E88}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AiCodo.Core.Data.MySql", "AiCodo.Core.Data.MySql\AiCodo.Core.Data.MySql.csproj", "{C14CF4FB-4D2C-4EDA-8B98-483D85928CBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AiCodo.RazorCodes", "AiCodo.RazorCodes\AiCodo.RazorCodes.csproj", "{1B93DB3E-E65D-447F-A820-2C43E40A6EFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +57,14 @@ Global
 		{E56E8887-12D3-404C-88D5-4672096F5E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E56E8887-12D3-404C-88D5-4672096F5E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E56E8887-12D3-404C-88D5-4672096F5E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C14CF4FB-4D2C-4EDA-8B98-483D85928CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C14CF4FB-4D2C-4EDA-8B98-483D85928CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C14CF4FB-4D2C-4EDA-8B98-483D85928CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C14CF4FB-4D2C-4EDA-8B98-483D85928CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B93DB3E-E65D-447F-A820-2C43E40A6EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B93DB3E-E65D-447F-A820-2C43E40A6EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B93DB3E-E65D-447F-A820-2C43E40A6EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B93DB3E-E65D-447F-A820-2C43E40A6EFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

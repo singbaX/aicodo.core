@@ -21,10 +21,10 @@
 	  </None>
 	</ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\AiCodo.Core.Exp\AiCodo.Core.Exp.csproj" />
-    <ProjectReference Include="..\AiCodo.Core.Json\AiCodo.Core.Json.csproj" />
-    <ProjectReference Include="..\AiCodo.Core\AiCodo.Core.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="AiCodo.Core" Version="1.0.0" />
+	  <PackageReference Include="AiCodo.Core.Exp" Version="1.0.0" />
+	  <PackageReference Include="AiCodo.Core.Json" Version="1.0.0" />
+	</ItemGroup>
 
 </Project>

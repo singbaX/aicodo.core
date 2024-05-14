@@ -14,4 +14,11 @@
 		<RepositoryUrl>https://github.com/singbaX/aicodo.core</RepositoryUrl>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <None Include="..\..\doc\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
 </Project>

@@ -2,15 +2,18 @@
 
   <PropertyGroup>
 	  <TargetFrameworks>netstandard2.0;netstandard2.1;</TargetFrameworks>
-    <Nullable>disable</Nullable>
-	  <BaseOutputPath>..\..\..\lib</BaseOutputPath>
-	  <BaseIntermediateOutputPath>..\..\..\obj</BaseIntermediateOutputPath>
+	  <BaseOutputPath></BaseOutputPath>
+      <RootNamespace>AiCodo.Codes</RootNamespace>
 	  <Authors>singba</Authors>
 	  <Product>aicodo.core</Product>
 	  <Company>aicodo.com</Company>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
 	  <Copyright>aicodo.com</Copyright>
 	  <RepositoryUrl>https://github.com/singbaX/aicodo.core</RepositoryUrl>
+	  <Title>AiCodo Code Tools</Title>
+	  <Description>AiCodo Code Tools</Description>
+	  <AssemblyVersion>1.0.0.0</AssemblyVersion>
+	  <Version>1.0.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,11 +23,10 @@
     </None>
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="AiCodo.Core" Version="1.0.0" />
-    <PackageReference Include="AiCodo.Core.Data" Version="1.0.0" />
-    <PackageReference Include="AiCodo.Core.Exp" Version="1.0.0" />
-    <PackageReference Include="AiCodo.Core.Json" Version="1.0.0" />
-  </ItemGroup>
-
+	<ItemGroup>
+		<PackageReference Include="AiCodo.Core" Version="1.0.0" />
+		<PackageReference Include="AiCodo.Core.Data" Version="1.0.0" />
+		<PackageReference Include="AiCodo.Core.Data.MySql" Version="1.0.0" />
+		<PackageReference Include="RazorEngineCore" Version="2023.11.2" />
+	</ItemGroup>
 </Project>
